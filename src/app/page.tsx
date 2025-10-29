@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { Building2, HelpCircle, Mail, Quote, Rocket, Star, Target, TrendingUp, Users, Zap } from "lucide-react";
+import { Building2, HelpCircle, Mail, Quote, Rocket, Star, Target, TrendingUp, Users, Zap, Linkedin, Twitter, Github, Globe } from "lucide-react";
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import HeroBillboard from '@/components/sections/hero/HeroBillboard';
@@ -132,8 +132,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Portrait of Sarah Johnson",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/sarah-johnson" },
-                { icon: "Twitter", url: "https://twitter.com/sarahjohnson" }
+                { icon: Linkedin, url: "https://linkedin.com/in/sarah-johnson" },
+                { icon: Twitter, url: "https://twitter.com/sarahjohnson" }
               ]
             },
             {
@@ -143,8 +143,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/5716042/pexels-photo-5716042.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Portrait of Michael Chen",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/michael-chen" },
-                { icon: "Github", url: "https://github.com/mchen" }
+                { icon: Linkedin, url: "https://linkedin.com/in/michael-chen" },
+                { icon: Github, url: "https://github.com/mchen" }
               ]
             },
             {
@@ -154,8 +154,8 @@ export default function Home() {
               imageSrc: "https://images.pexels.com/photos/7652465/pexels-photo-7652465.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               imageAlt: "Portrait of Emily Rodriguez",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/emily-rodriguez" },
-                { icon: "Globe", url: "https://emilydesigns.com" }
+                { icon: Linkedin, url: "https://linkedin.com/in/emily-rodriguez" },
+                { icon: Globe, url: "https://emilydesigns.com" }
               ]
             }
           ]}
