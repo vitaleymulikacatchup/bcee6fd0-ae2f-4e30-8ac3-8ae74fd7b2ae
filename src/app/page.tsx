@@ -34,7 +34,7 @@ export default function Home() {
 
       <div id="hero" data-section="hero">
         <HeroBillboard
-          title="Build the Future with Us"
+          title="Build Us"
           description="We're revolutionizing how startups scale with cutting-edge technology and innovative solutions that drive real results."
           tag="Post-Startup Innovation"
           tagIcon={Rocket}
@@ -42,7 +42,7 @@ export default function Home() {
             { text: "Get Started", href: "contact" },
             { text: "Learn More", href: "about" }
           ]}
-          imageSrc="https://images.pexels.com/photos/6774432/pexels-photo-6774432.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+          imageSrc="https://images.pexels.com/photos/327533/pexels-photo-327533.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           imageAlt="Innovative startup team collaborating"
         />
       </div>
